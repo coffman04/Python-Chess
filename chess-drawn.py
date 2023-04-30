@@ -1,8 +1,6 @@
 import turtle
 from tkinter import *
 from tkinter import ttk
-# need to do enpassant
-# checkmate / stalemate?
 
 class Chessboard:
     def __init__(self):
