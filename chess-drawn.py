@@ -575,7 +575,7 @@ class King(Piece):
         for i in range(-2,3,1):
             for j in range(-2,3,1):
                 if(abs(i)+abs(j)==3):
-                    if(0<self.rank+i<8 and 0<self.file+j<8):
+                    if(0<self.rank+i<9 and 0<self.file+j<9):
                         if(board.containsPiece(self.rank+i, self.file+j)):
                             if(not self.isFriendly(board.pieceContained(self.rank+i, self.file+j))):
                                 p = board.pieceContained(self.rank+i, self.file+j).type
